@@ -1,0 +1,1910 @@
+{
+ "atualizado": "2026-10-05",
+ "sede": {
+  "id": "sede",
+  "nome": "Templo Sede (Matriz IEADMS)",
+  "setor": null,
+  "pastor": null,
+  "instagram": "ieadmsoficial",
+  "foto": null,
+  "endereco": "Av. Dr. João Rosa Pires, 482",
+  "bairro": "Amambaí",
+  "cep": "79008-050",
+  "bairroOficial": "Amambaí",
+  "loteamento": "Amambaí",
+  "coord": [
+   -54.624592,
+   -20.465108
+  ],
+  "localizacao": "confirmada",
+  "sede": true
+ },
+ "setores": [
+  {
+   "id": "A",
+   "nome": "Setor A",
+   "cor": "#1E6FD9",
+   "supervisor": null
+  },
+  {
+   "id": "B",
+   "nome": "Setor B",
+   "cor": "#22B8F0",
+   "supervisor": null
+  },
+  {
+   "id": "C-1",
+   "nome": "Setor C-1",
+   "cor": "#F2C511",
+   "supervisor": null
+  },
+  {
+   "id": "C-2",
+   "nome": "Setor C-2",
+   "cor": "#23B05A",
+   "supervisor": null
+  },
+  {
+   "id": "D",
+   "nome": "Setor D",
+   "cor": "#C9A66B",
+   "supervisor": null
+  },
+  {
+   "id": "E",
+   "nome": "Setor E",
+   "cor": "#94A3B8",
+   "supervisor": null
+  },
+  {
+   "id": "F",
+   "nome": "Setor F",
+   "cor": "#8B5CF6",
+   "supervisor": null
+  },
+  {
+   "id": "G",
+   "nome": "Setor G",
+   "cor": "#2DD4BF",
+   "supervisor": null
+  },
+  {
+   "id": "H",
+   "nome": "Setor H",
+   "cor": "#F08A8A",
+   "supervisor": null
+  },
+  {
+   "id": "J",
+   "nome": "Setor J",
+   "cor": "#64748B",
+   "supervisor": null
+  },
+  {
+   "id": "M",
+   "nome": "Setor M",
+   "cor": "#DC4B4B",
+   "supervisor": null
+  },
+  {
+   "id": "N",
+   "nome": "Setor N",
+   "cor": "#B39DDB",
+   "supervisor": null
+  }
+ ],
+ "congregacoes": [
+  {
+   "id": "dr-albuquerque",
+   "nome": "Dr. Albuquerque",
+   "setor": "A",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Maria Margarida, nº 278",
+   "bairro": "Dr. Albuquerque",
+   "cep": "79060-190",
+   "bairroOficial": "Doutor Albuquerque",
+   "loteamento": "Doutor Albuquerque",
+   "coord": [
+    -54.602206,
+    -20.503813
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "moreninha-iii",
+   "nome": "Moreninha III",
+   "setor": "A",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Amapá Doce, nº 15",
+   "bairro": "Moreninha III",
+   "cep": "79065-070",
+   "bairroOficial": "Moreninha",
+   "loteamento": "Moreninha",
+   "coord": [
+    -54.574161,
+    -20.555057
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "alves-pereira",
+   "nome": "Alves Pereira",
+   "setor": "A",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Agostinho Bacha, nº 599",
+   "bairro": "Alves Pereira",
+   "cep": null,
+   "bairroOficial": "Alves Pereira",
+   "loteamento": "Alves Pereira",
+   "coord": [
+    -54.603252,
+    -20.530214
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "jardim-moema",
+   "nome": "Jardim Moema",
+   "setor": "A",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Olinda Gondin Martins, nº 08",
+   "bairro": "Jardim Moema",
+   "cep": "79063-260",
+   "bairroOficial": "Universitário",
+   "loteamento": "Jardim Moema",
+   "coord": [
+    -54.582894,
+    -20.523312
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "itamaraca",
+   "nome": "Itamaracá",
+   "setor": "A",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Georgina Pereira Barbosa, nº 428",
+   "bairro": "Jardim Itamaracá",
+   "cep": "79062-110",
+   "bairroOficial": "Rita Vieira",
+   "loteamento": "Rita Vieira",
+   "coord": [
+    -54.571474,
+    -20.511937
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "cidade-morena",
+   "nome": "Cidade Morena",
+   "setor": "A",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Minas Novas, nº 468",
+   "bairro": "Cidade Morena",
+   "cep": "79064-370",
+   "bairroOficial": "Moreninha",
+   "loteamento": "Moreninha",
+   "coord": [
+    -54.58762,
+    -20.550619
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "moreninha-iv",
+   "nome": "Moreninha IV",
+   "setor": "A",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": null,
+   "bairro": "Moreninha IV",
+   "cep": null,
+   "bairroOficial": "Moreninha",
+   "loteamento": "Moreninha",
+   "coord": [
+    -54.5687732,
+    -20.5581383
+   ],
+   "localizacao": "aproximada"
+  },
+  {
+   "id": "santa-felicidade",
+   "nome": "Santa Felicidade",
+   "setor": "A",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua dos Pretos Velhos, s/nº",
+   "bairro": "Santa Felicidade",
+   "cep": null,
+   "bairroOficial": "Moreninha",
+   "loteamento": "Moreninha",
+   "coord": [
+    -54.582675,
+    -20.560876
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "campina-verde",
+   "nome": "Campina Verde",
+   "setor": "A",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Jornalista Márcia Mendes, nº 235",
+   "bairro": "Campina Verde",
+   "cep": "79062-510",
+   "bairroOficial": "Universitário",
+   "loteamento": "Universitário",
+   "coord": [
+    -54.575808,
+    -20.520428
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "universitario",
+   "nome": "Universitário",
+   "setor": "A",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Brigadeiro Thiago, nº 297",
+   "bairro": "Universitário",
+   "cep": "79063-520",
+   "bairroOficial": "Universitário",
+   "loteamento": "Universitário",
+   "coord": [
+    -54.597192,
+    -20.51902
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "campo-belo",
+   "nome": "Campo Belo",
+   "setor": "B",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Báltico, nº 295",
+   "bairro": "Campo Belo",
+   "cep": "79015-210",
+   "bairroOficial": "Mata do Segredo",
+   "loteamento": "Mata do Segredo",
+   "coord": [
+    -54.58577,
+    -20.401312
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "imperial",
+   "nome": "Imperial",
+   "setor": "B",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Catanduva, nº 582",
+   "bairro": "Jardim Imperial",
+   "cep": "79013-010",
+   "bairroOficial": "Coronel Antonino",
+   "loteamento": "Coronel Antonino",
+   "coord": [
+    -54.593081,
+    -20.426359
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "atlantico-sul",
+   "nome": "Atlântico Sul",
+   "setor": "B",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua dos Bispos Qd. 10 Lt. 05, s/nº",
+   "bairro": "Atlântico Sul",
+   "cep": null,
+   "bairroOficial": "Coronel Antonino",
+   "loteamento": "Coronel Antonino",
+   "coord": [
+    -54.594075,
+    -20.416193
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "isabel-garden",
+   "nome": "Isabel Garden",
+   "setor": "B",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua José Nogueira Vieira, nº 154",
+   "bairro": "Isabel Garden",
+   "cep": null,
+   "bairroOficial": "Coronel Antonino",
+   "loteamento": "Coronel Antonino",
+   "coord": [
+    -54.582369,
+    -20.414249
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "nova-lima-iii",
+   "nome": "Nova Lima III",
+   "setor": "B",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Santo Inácio de Loiola, nº 306",
+   "bairro": "Nova Lima III",
+   "cep": null,
+   "bairroOficial": "Nova Lima",
+   "loteamento": "Nova Lima",
+   "coord": [
+    -54.572042,
+    -20.404852
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "santa-carmelia",
+   "nome": "Santa Carmélia",
+   "setor": "C-1",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Serapião Ferreira Maurício, nº 619",
+   "bairro": "Santa Carmélia",
+   "cep": "79115-410",
+   "bairroOficial": "Santo Amaro",
+   "loteamento": "Santo Amaro",
+   "coord": [
+    -54.652986,
+    -20.43028
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "santa-luzia",
+   "nome": "Santa Luzia",
+   "setor": "C-1",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Av. São Nicolau, nº 734",
+   "bairro": "Santa Luzia",
+   "cep": "79116-270",
+   "bairroOficial": "Nasser",
+   "loteamento": "Santa Luzia",
+   "coord": [
+    -54.640165,
+    -20.412584
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "santo-amaro",
+   "nome": "Santo Amaro",
+   "setor": "C-1",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Santo Amaro, nº 627",
+   "bairro": "Santo Amaro",
+   "cep": "79112-100",
+   "bairroOficial": "Santo Amaro",
+   "loteamento": "Santo Amaro",
+   "coord": [
+    -54.649813,
+    -20.446511
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "portal-da-lagoa",
+   "nome": "Portal da Lagoa",
+   "setor": "C-1",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Sebastião F. de Carvalho, s/nº",
+   "bairro": "São Caetano",
+   "cep": null,
+   "bairroOficial": "Nasser",
+   "loteamento": "Nasser",
+   "coord": [
+    -54.624821,
+    -20.392537
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "jose-abrao",
+   "nome": "José Abrão",
+   "setor": "C-1",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Joaquim Cândido, nº 200",
+   "bairro": "José Abrão",
+   "cep": "79114-140",
+   "bairroOficial": "José Abrão",
+   "loteamento": "José Abrão",
+   "coord": [
+    -54.66501,
+    -20.419309
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "ze-pereira",
+   "nome": "Zé Pereira",
+   "setor": "C-1",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Homero Lima, nº 684",
+   "bairro": "Zé Pereira",
+   "cep": null,
+   "bairroOficial": "Panamá",
+   "loteamento": "Panamá",
+   "coord": [
+    -54.672866,
+    -20.434583
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "vila-nasser",
+   "nome": "Vila Nasser",
+   "setor": "C-1",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Cotegipe, nº 136",
+   "bairro": "N.Srª das Graças",
+   "cep": "79116-440",
+   "bairroOficial": "Nasser",
+   "loteamento": "Nasser",
+   "coord": [
+    -54.638197,
+    -20.429062
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "vila-marly",
+   "nome": "Vila Marly",
+   "setor": "C-1",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Ovídeo de Paula Corrêa, nº 388",
+   "bairro": "Vila Marly",
+   "cep": "79117-260",
+   "bairroOficial": "Nasser",
+   "loteamento": "Vila Marli",
+   "coord": [
+    -54.625854,
+    -20.416444
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "serradinho",
+   "nome": "Serradinho",
+   "setor": "C-2",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Eduardo Prado, nº 282",
+   "bairro": "Serradinho",
+   "cep": "79104-040",
+   "bairroOficial": "Nova Campo Grande",
+   "loteamento": "Nova Campo Grande",
+   "coord": [
+    -54.681056,
+    -20.456749
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "ima",
+   "nome": "Imá",
+   "setor": "C-2",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Brasília, nº 731",
+   "bairro": "Jardim Imá",
+   "cep": "79102-050",
+   "bairroOficial": "Santo Antônio",
+   "loteamento": "Santo Antônio",
+   "coord": [
+    -54.661683,
+    -20.451349
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "popular",
+   "nome": "Popular",
+   "setor": "C-2",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Antônio Sobreira, nº 334",
+   "bairro": "Vila Popular",
+   "cep": "79106-790",
+   "bairroOficial": "Popular",
+   "loteamento": "Popular",
+   "coord": [
+    -54.701942,
+    -20.449957
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "inapolis",
+   "nome": "Inápolis",
+   "setor": "C-2",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Uba, nº 236",
+   "bairro": "Jardim Inápolis",
+   "cep": null,
+   "bairroOficial": "Núcleo Industrial",
+   "loteamento": "Núcleo Industrial",
+   "coord": [
+    -54.743819,
+    -20.47909
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "aeroporto-ii",
+   "nome": "Aeroporto II",
+   "setor": "C-2",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Itapeva, nº 908",
+   "bairro": "Aeroporto II",
+   "cep": "79106-070",
+   "bairroOficial": "Popular",
+   "loteamento": "Popular",
+   "coord": [
+    -54.687228,
+    -20.443484
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "aeroporto-i",
+   "nome": "Aeroporto I",
+   "setor": "C-2",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Guaimbé, nº 301",
+   "bairro": "Aeroporto I",
+   "cep": "79103-180",
+   "bairroOficial": "Popular",
+   "loteamento": "Popular",
+   "coord": [
+    -54.680076,
+    -20.446517
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "carioca",
+   "nome": "Carioca",
+   "setor": "C-2",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Av. Sete esquina com Nara Leão, nº 2012",
+   "bairro": "Jardim Carioca",
+   "cep": "79106-730",
+   "bairroOficial": "Nova Campo Grande",
+   "loteamento": "Nova Campo Grande",
+   "coord": [
+    -54.710838,
+    -20.468028
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "santa-monica",
+   "nome": "Santa Mônica",
+   "setor": "C-2",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Filipe Pinheiro, lote 15, s/nº",
+   "bairro": "Santa Mônica",
+   "cep": null,
+   "bairroOficial": "Popular",
+   "loteamento": "Popular",
+   "coord": [
+    -54.7109915,
+    -20.4568506
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "aero-rancho-iv",
+   "nome": "Aero Rancho IV",
+   "setor": "D",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Evângelo Vavas, nº 237",
+   "bairro": "Aero Rancho IV",
+   "cep": "79084-600",
+   "bairroOficial": "Aero Rancho",
+   "loteamento": "Aero Rancho",
+   "coord": [
+    -54.645552,
+    -20.512282
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "guanandy-ii",
+   "nome": "Guanandy II",
+   "setor": "D",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua do Piano, Q. 11, Lote 31, s/nº",
+   "bairro": "Guanandy II",
+   "cep": null,
+   "bairroOficial": "Aero Rancho",
+   "loteamento": "Aero Rancho",
+   "coord": [
+    -54.644217,
+    -20.508095
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "jardim-das-hortencias",
+   "nome": "Jardim das Hortências",
+   "setor": "D",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Flôr de Maio, nº 25",
+   "bairro": "Jardim das Hortências",
+   "cep": null,
+   "bairroOficial": "Aero Rancho",
+   "loteamento": "Aero Rancho",
+   "coord": [
+    -54.643309,
+    -20.513563
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "aero-rancho-i",
+   "nome": "Aero Rancho I",
+   "setor": "D",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Panorâmica, nº 174",
+   "bairro": "Aero Rancho I",
+   "cep": "79083-700",
+   "bairroOficial": "Aero Rancho",
+   "loteamento": "Aero Rancho",
+   "coord": [
+    -54.653491,
+    -20.527023
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "centenario",
+   "nome": "Centenário",
+   "setor": "D",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Morro do Chapéu, nº 185",
+   "bairro": "Jardim Centenário",
+   "cep": "79076-080",
+   "bairroOficial": null,
+   "loteamento": null,
+   "coord": [
+    -54.653133,
+    -20.535989
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "jd-aero-rancho",
+   "nome": "Jd Aero Rancho",
+   "setor": "D",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": null,
+   "bairro": "Aero Rancho",
+   "cep": null,
+   "bairroOficial": "Aero Rancho",
+   "loteamento": "Aero Rancho",
+   "coord": [
+    -54.6386571,
+    -20.5229429
+   ],
+   "localizacao": "aproximada"
+  },
+  {
+   "id": "tancredo-neves",
+   "nome": "Tancredo Neves",
+   "setor": "D",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Av. Tancredo Neves, 786",
+   "bairro": "Aero Rancho IV",
+   "cep": null,
+   "bairroOficial": "Aero Rancho",
+   "loteamento": "Aero Rancho",
+   "coord": [
+    -54.6443895,
+    -20.5132711
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "nova-esperanca",
+   "nome": "Nova Esperança",
+   "setor": "D",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Boituva, 834",
+   "bairro": "Vila Esperança",
+   "cep": null,
+   "bairroOficial": "Piratininga",
+   "loteamento": "Piratininga",
+   "coord": [
+    -54.6326923,
+    -20.5031343
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "iracy-coelho",
+   "nome": "Iracy Coelho",
+   "setor": "D",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Pirassununga, nº 229",
+   "bairro": "Iracy Coelho",
+   "cep": "79083-530",
+   "bairroOficial": "Aero Rancho",
+   "loteamento": "Aero Rancho",
+   "coord": [
+    -54.64735,
+    -20.523691
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "paraty",
+   "nome": "Paraty",
+   "setor": "D",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Canutama, nº 271",
+   "bairro": "Conjunto Paraty",
+   "cep": "79083-090",
+   "bairroOficial": "Aero Rancho",
+   "loteamento": "Aero Rancho",
+   "coord": [
+    -54.635924,
+    -20.516968
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "tiradentes",
+   "nome": "Tiradentes",
+   "setor": "E",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Arabutã, nº 08",
+   "bairro": "Tiradentes",
+   "cep": "79051-250",
+   "bairroOficial": "Tiradentes",
+   "loteamento": "Tiradentes",
+   "coord": [
+    -54.574795,
+    -20.479339
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "vilas-boas",
+   "nome": "Vilas Boas",
+   "setor": "E",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Av. Nicomedes Rezende Vieira, nº 406",
+   "bairro": "Vilas Boas",
+   "cep": "79051-250",
+   "bairroOficial": "Vilasboas",
+   "loteamento": "Vilasboas",
+   "coord": [
+    -54.59039,
+    -20.481584
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "piratininga",
+   "nome": "Piratininga",
+   "setor": "E",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Voluntário da Pátria, nº 171",
+   "bairro": "Piratininga",
+   "cep": "79081-110",
+   "bairroOficial": "Piratininga",
+   "loteamento": "Piratininga",
+   "coord": [
+    -54.624946,
+    -20.496552
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "jardim-paulista",
+   "nome": "Jardim Paulista",
+   "setor": "E",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Giocondo Orsi, nº 154",
+   "bairro": "Jardim Paulista",
+   "cep": "79050-270",
+   "bairroOficial": "Jardim Paulista",
+   "loteamento": "Jardim Paulista",
+   "coord": [
+    -54.605426,
+    -20.487304
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "marcos-roberto",
+   "nome": "Marcos Roberto",
+   "setor": "E",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Ouro Verde, nº 473",
+   "bairro": "Marcos Roberto",
+   "cep": "79080-260",
+   "bairroOficial": "Jockey Club",
+   "loteamento": "Jockey Club",
+   "coord": [
+    -54.628858,
+    -20.486782
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "parque-dallas",
+   "nome": "Parque Dallas",
+   "setor": "E",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Av. Nicomedes Rezende Vieira, nº 800",
+   "bairro": "Parque Dallas",
+   "cep": "79051-250",
+   "bairroOficial": "Vilasboas",
+   "loteamento": "Vilasboas",
+   "coord": [
+    -54.58039,
+    -20.490294
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "guanandy",
+   "nome": "Guanandy",
+   "setor": "F",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Jaime F. Barbosa, nº 811",
+   "bairro": "Guanandy",
+   "cep": "79086-170",
+   "bairroOficial": "Guanandi",
+   "loteamento": "Guanandi",
+   "coord": [
+    -54.648973,
+    -20.499426
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "bom-jardim",
+   "nome": "Bom Jardim",
+   "setor": "F",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Avenida Beira Rio, nº 474",
+   "bairro": "Bom Jardim",
+   "cep": null,
+   "bairroOficial": "União",
+   "loteamento": "União",
+   "coord": [
+    -54.659262,
+    -20.485874
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "caicara",
+   "nome": "Caiçara",
+   "setor": "F",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Brilhante, nº 3.923",
+   "bairro": "Caiçara",
+   "cep": "79005-250",
+   "bairroOficial": "Bandeirantes",
+   "loteamento": "Bandeirantes",
+   "coord": [
+    -54.646624,
+    -20.487579
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "jacy",
+   "nome": "Jacy",
+   "setor": "F",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Guatemala, nº 134",
+   "bairro": "Jacy",
+   "cep": "79006-331",
+   "bairroOficial": "Jacy",
+   "loteamento": "Jacy",
+   "coord": [
+    -54.637221,
+    -20.491189
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "uniao",
+   "nome": "União",
+   "setor": "F",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua José Garcia L. Filho, nº 795",
+   "bairro": "Conjunto União",
+   "cep": "79091-440",
+   "bairroOficial": "União",
+   "loteamento": "União",
+   "coord": [
+    -54.663221,
+    -20.477914
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "tijuca-ii",
+   "nome": "Tijuca II",
+   "setor": "F",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Imburus, nº 545",
+   "bairro": "Tijuca II",
+   "cep": "79094-120",
+   "bairroOficial": "Tijuca",
+   "loteamento": "Tijuca",
+   "coord": [
+    -54.661404,
+    -20.516908
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "santa-emilia",
+   "nome": "Santa Emília",
+   "setor": "F",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Coronel Adauto Barbosa, nº 187",
+   "bairro": "Santa Emília",
+   "cep": "79093-320",
+   "bairroOficial": "São Conrado",
+   "loteamento": "São Conrado",
+   "coord": [
+    -54.673608,
+    -20.502791
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "sao-conrado",
+   "nome": "São Conrado",
+   "setor": "F",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Internacional, nº 426",
+   "bairro": "São Conrado",
+   "cep": "79093-110",
+   "bairroOficial": "São Conrado",
+   "loteamento": "São Conrado",
+   "coord": [
+    -54.67622,
+    -20.494239
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "rancho-alegre",
+   "nome": "Rancho Alegre",
+   "setor": "F",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Graveteiro, nº 497",
+   "bairro": "Rancho Alegre",
+   "cep": "79096-144",
+   "bairroOficial": "Caiobá",
+   "loteamento": "Caiobá",
+   "coord": [
+    -54.682486,
+    -20.515473
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "sao-jorge-da-lagoa",
+   "nome": "São Jorge da Lagoa",
+   "setor": "F",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Porto Rico, nº 913",
+   "bairro": "São Jorge da Lagoa",
+   "cep": "79095-010",
+   "bairroOficial": "Batistão",
+   "loteamento": "Batistão",
+   "coord": [
+    -54.667563,
+    -20.522907
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "portal-caioba",
+   "nome": "Portal Caiobá",
+   "setor": "G",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Cassandra, nº 540",
+   "bairro": "Portal do Caiobá",
+   "cep": "79096-050",
+   "bairroOficial": "Caiobá",
+   "loteamento": "Caiobá",
+   "coord": [
+    -54.68005,
+    -20.522099
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "portal-do-caioba-ii",
+   "nome": "Portal do Caiobá II",
+   "setor": "G",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Diógenes Inácio de Souza Qd. 11 Lt. 07, s/nº",
+   "bairro": "Portal Caiobá II",
+   "cep": null,
+   "bairroOficial": "Caiobá",
+   "loteamento": "Caiobá",
+   "coord": [
+    -54.6937,
+    -20.515197
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "portal-das-laranjeiras",
+   "nome": "Portal das Laranjeiras",
+   "setor": "G",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua da Portela, 394",
+   "bairro": "Tarumã",
+   "cep": "79097-300",
+   "bairroOficial": "Tarumã",
+   "loteamento": "Tarumã",
+   "coord": [
+    -54.6773992,
+    -20.5435668
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "taruma",
+   "nome": "Tarumã",
+   "setor": "G",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": null,
+   "bairro": "Tarumã",
+   "cep": null,
+   "bairroOficial": "Tarumã",
+   "loteamento": "Tarumã",
+   "coord": [
+    -54.6712166,
+    -20.5422985
+   ],
+   "localizacao": "aproximada"
+  },
+  {
+   "id": "jardim-penfigo",
+   "nome": "Jardim Pênfigo",
+   "setor": "G",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua João Teles, nº 353",
+   "bairro": "Jardim Pênfigo",
+   "cep": null,
+   "bairroOficial": null,
+   "loteamento": null,
+   "coord": [
+    -54.664437,
+    -20.551056
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "parque-lageado",
+   "nome": "Parque Lageado",
+   "setor": "G",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Armando Franco, nº 366",
+   "bairro": "Parque do Lageado",
+   "cep": "79075-070",
+   "bairroOficial": "Lageado",
+   "loteamento": "Lageado",
+   "coord": [
+    -54.645814,
+    -20.549459
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "pq-do-sabia",
+   "nome": "Pq do Sabiá",
+   "setor": "G",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": null,
+   "bairro": null,
+   "cep": null,
+   "bairroOficial": null,
+   "loteamento": null,
+   "coord": null,
+   "localizacao": "pendente"
+  },
+  {
+   "id": "aero-rancho-vii",
+   "nome": "Aero Rancho VII",
+   "setor": "G",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Velereiro, s/nº",
+   "bairro": "Aero Rancho VII",
+   "cep": "79085-010",
+   "bairroOficial": null,
+   "loteamento": null,
+   "coord": [
+    -54.661585,
+    -20.535821
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "parque-do-sol",
+   "nome": "Parque do Sol",
+   "setor": "G",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Segismundo Tavares Santana, nº 537",
+   "bairro": "Dom Antonio Barbosa",
+   "cep": "79075-114",
+   "bairroOficial": "Lageado",
+   "loteamento": "Lageado",
+   "coord": [
+    -54.650502,
+    -20.556968
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "colorado",
+   "nome": "Colorado",
+   "setor": "G",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Leonel Rocha, s/nº",
+   "bairro": "Jardim Colorado",
+   "cep": null,
+   "bairroOficial": "Lageado",
+   "loteamento": "Lageado",
+   "coord": [
+    -54.657997,
+    -20.553818
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "margarida",
+   "nome": "Margarida",
+   "setor": "H",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Ciro Araújo França, nº 579",
+   "bairro": "Vila Margarida",
+   "cep": "79023-270",
+   "bairroOficial": "Margarida",
+   "loteamento": "Margarida",
+   "coord": [
+    -54.588994,
+    -20.432191
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "santa-fe",
+   "nome": "Santa Fé",
+   "setor": "H",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Manoel Inácio Souza, nº 1.386",
+   "bairro": "Santa Fé",
+   "cep": "79021-190",
+   "bairroOficial": "Santa Fé",
+   "loteamento": "Santa Fé",
+   "coord": [
+    -54.5893889,
+    -20.4537484
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "monte-castelo",
+   "nome": "Monte Castelo",
+   "setor": "H",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Av. Monte Castelo, nº 1.451",
+   "bairro": "Monte Castelo",
+   "cep": "79011-000",
+   "bairroOficial": "Monte Castelo",
+   "loteamento": "Monte Castelo",
+   "coord": [
+    -54.6068194,
+    -20.4272818
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "mata-do-jacinto",
+   "nome": "Mata do Jacinto",
+   "setor": "H",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Jorge Pedro Bedoglim, nº 91",
+   "bairro": "Mata do Jacinto",
+   "cep": "79034-240",
+   "bairroOficial": "Mata do Jacinto",
+   "loteamento": "Mata do Jacinto",
+   "coord": [
+    -54.574445,
+    -20.421945
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "montevideu",
+   "nome": "Montevidéu",
+   "setor": "H",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Panônia, nº 1.850",
+   "bairro": "Montevidéu",
+   "cep": "79035-330",
+   "bairroOficial": "Novos Estados",
+   "loteamento": "Novos Estados",
+   "coord": [
+    -54.5565494,
+    -20.4177377
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "nova-bahia",
+   "nome": "Nova Bahia",
+   "setor": "H",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": null,
+   "bairro": "Novos Estados",
+   "cep": null,
+   "bairroOficial": "Novos Estados",
+   "loteamento": "Novos Estados",
+   "coord": [
+    -54.5683314,
+    -20.4130741
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "cruzeiro",
+   "nome": "Cruzeiro",
+   "setor": "H",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Santa Maria, nº 1.782",
+   "bairro": "Cruzeiro",
+   "cep": "79011-190",
+   "bairroOficial": "Coronel Antonino",
+   "loteamento": "Coronel Antonino",
+   "coord": [
+    -54.5969655,
+    -20.431587
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "estrela-dalva-i",
+   "nome": "Estrela Dalva I",
+   "setor": "H",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua 9 de maio, nº 935",
+   "bairro": "Estrela Dalva I",
+   "cep": "79034-607",
+   "bairroOficial": "Estrela Dalva",
+   "loteamento": "Estrela Dalva",
+   "coord": [
+    -54.5573438,
+    -20.428239
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "taquaral-bosque",
+   "nome": "Taquaral Bosque",
+   "setor": "H",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": null,
+   "bairro": "Veraneio",
+   "cep": null,
+   "bairroOficial": "Veraneio",
+   "loteamento": "Veraneio",
+   "coord": [
+    -54.5500231,
+    -20.4264846
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "catarina-ii",
+   "nome": "Catarina II",
+   "setor": "H",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Raul Brunini, nº 33",
+   "bairro": "Catarina II",
+   "cep": "79023-780",
+   "bairroOficial": "Margarida",
+   "loteamento": "Margarida",
+   "coord": [
+    -54.581371,
+    -20.434206
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "jardim-das-nacoes",
+   "nome": "Jardim das Nações",
+   "setor": "J",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Kalil Abrão, Qd. 30 Lt. 50, s/nº",
+   "bairro": "Parati",
+   "cep": null,
+   "bairroOficial": "Parati",
+   "loteamento": "Parati",
+   "coord": [
+    -54.626192,
+    -20.512025
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "pioneira",
+   "nome": "Pioneira",
+   "setor": "J",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Luis Pereira, nº 971",
+   "bairro": "Pioneira",
+   "cep": "79070-125",
+   "bairroOficial": null,
+   "loteamento": null,
+   "coord": [
+    -54.610743,
+    -20.518003
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "cohab",
+   "nome": "Cohab",
+   "setor": "J",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Avenida da Ciência, nº 412",
+   "bairro": "Cohab",
+   "cep": "79071-340",
+   "bairroOficial": "Alves Pereira",
+   "loteamento": "Núcleo Habitacional Universitária",
+   "coord": [
+    -54.621026,
+    -20.536508
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "centro-oeste",
+   "nome": "Centro Oeste",
+   "setor": "J",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Barão de Tefé, nº 253",
+   "bairro": "Centro Oeste",
+   "cep": "79073-181",
+   "bairroOficial": "Centro Oeste",
+   "loteamento": "Centro Oeste",
+   "coord": [
+    -54.610076,
+    -20.554146
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "macaubas",
+   "nome": "Macaúbas",
+   "setor": "J",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Enéas Francisco Bello, nº 423",
+   "bairro": "Jardim das Macaúbas",
+   "cep": "79033-100",
+   "bairroOficial": "Centro Oeste",
+   "loteamento": "Centro Oeste",
+   "coord": [
+    -54.620858,
+    -20.547706
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "uirapuru",
+   "nome": "Uirapuru",
+   "setor": "J",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Trav. Pereira Barreto, nº 32",
+   "bairro": "Jardim Uirapurú",
+   "cep": "79073-231",
+   "bairroOficial": "Los Angeles",
+   "loteamento": "Los Angeles",
+   "coord": [
+    -54.630559,
+    -20.557257
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "los-angeles",
+   "nome": "Los Angeles",
+   "setor": "J",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Ciro Azevedo, nº 47",
+   "bairro": "Jardim Los Angeles",
+   "cep": "79073-264",
+   "bairroOficial": "Los Angeles",
+   "loteamento": "Los Angeles",
+   "coord": [
+    -54.625817,
+    -20.545312
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "novo-seculo",
+   "nome": "Novo Seculo",
+   "setor": "J",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": null,
+   "bairro": null,
+   "cep": null,
+   "bairroOficial": null,
+   "loteamento": null,
+   "coord": null,
+   "localizacao": "pendente"
+  },
+  {
+   "id": "guaicurus",
+   "nome": "Guaicurus",
+   "setor": "J",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Av. Guaicurus, nº 7.474",
+   "bairro": "Aymoré",
+   "cep": null,
+   "bairroOficial": null,
+   "loteamento": null,
+   "coord": [
+    -54.642168,
+    -20.537194
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "vespasiano-martins",
+   "nome": "Vespasiano Martins",
+   "setor": "J",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Luiz G. Ramos Arruda, nº 314",
+   "bairro": "Vespaziano Martins",
+   "cep": null,
+   "bairroOficial": "Los Angeles",
+   "loteamento": "Los Angeles",
+   "coord": [
+    -54.636825,
+    -20.553389
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "matel",
+   "nome": "Matel",
+   "setor": "M",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Doutora Zulmira Borba, nº 1.571",
+   "bairro": "Matel",
+   "cep": "79017-040",
+   "bairroOficial": "Nova Lima",
+   "loteamento": "Nova Lima",
+   "coord": [
+    -54.5756695,
+    -20.3909782
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "jardim-columbia",
+   "nome": "Jardim Columbia",
+   "setor": "M",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Nhamundá, nº 1.497",
+   "bairro": "Jardim Colúmbia",
+   "cep": "79018-080",
+   "bairroOficial": "Nova Lima",
+   "loteamento": "Nova Lima",
+   "coord": [
+    -54.546958,
+    -20.383135
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "nova-lima-ii",
+   "nome": "Nova Lima II",
+   "setor": "M",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Alcebíades Barbosa, nº 630",
+   "bairro": "Nova Lima II",
+   "cep": "79017-052",
+   "bairroOficial": "Nova Lima",
+   "loteamento": "Nova Lima",
+   "coord": [
+    -54.5670463,
+    -20.3942467
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "nova-lima-i",
+   "nome": "Nova Lima I",
+   "setor": "M",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Jerônimo de Albuquerque, nº 3.045",
+   "bairro": "Nova Lima I",
+   "cep": "79017-200",
+   "bairroOficial": "Nova Lima",
+   "loteamento": "Nova Lima",
+   "coord": [
+    -54.5592827,
+    -20.382559
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "vida-nova",
+   "nome": "Vida Nova",
+   "setor": "M",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Sanandu Qd. 12 Lt. 09 E, s/nº",
+   "bairro": "Vida Nova",
+   "cep": "79017-160",
+   "bairroOficial": "Nova Lima",
+   "loteamento": "Nova Lima",
+   "coord": [
+    -54.569896,
+    -20.38175
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "jardim-anache",
+   "nome": "Jardim Anache",
+   "setor": "M",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Silver, nº 19",
+   "bairro": "Nova Lima",
+   "cep": null,
+   "bairroOficial": "Nova Lima",
+   "loteamento": "Nova Lima",
+   "coord": [
+    -54.569538,
+    -20.374344
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "maria-pedrossian",
+   "nome": "Maria Pedrossian",
+   "setor": "N",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua João Francisco Damasceno, nº 200",
+   "bairro": "Maria Aparecida Pedrossian",
+   "cep": "79044-450",
+   "bairroOficial": "Maria Aparecida Pedrossian",
+   "loteamento": "Maria Aparecida Pedrossian",
+   "coord": [
+    -54.551522,
+    -20.470435
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "leon-denizart",
+   "nome": "Leon Denizart",
+   "setor": "N",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Vaz de Caminha Lt.01 Qd. 158, s/nº",
+   "bairro": "Leon Denizart",
+   "cep": null,
+   "bairroOficial": "Noroeste",
+   "loteamento": "Noroeste",
+   "coord": [
+    -54.537754,
+    -20.451466
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "rita-vieira",
+   "nome": "Rita Vieira",
+   "setor": "N",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Rafael Nahas, nº 762",
+   "bairro": "Rita Vieira",
+   "cep": "79052-050",
+   "bairroOficial": "Rita Vieira",
+   "loteamento": "Rita Vieira",
+   "coord": [
+    -54.570338,
+    -20.499343
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "nova-serrana",
+   "nome": "Nova Serrana",
+   "setor": "N",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": null,
+   "bairro": "Nova Serrana",
+   "cep": null,
+   "bairroOficial": "Noroeste",
+   "loteamento": "Noroeste",
+   "coord": [
+    -54.5211125,
+    -20.4655593
+   ],
+   "localizacao": "aproximada"
+  },
+  {
+   "id": "jardim-panorama",
+   "nome": "Jardim Panorama",
+   "setor": "N",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": null,
+   "bairro": "Panorama",
+   "cep": null,
+   "bairroOficial": "Maria Aparecida Pedrossian",
+   "loteamento": "Maria Aparecida Pedrossian",
+   "coord": [
+    -54.5442377,
+    -20.4695508
+   ],
+   "localizacao": "aproximada"
+  },
+  {
+   "id": "estrela-parque",
+   "nome": "Estrela Parque",
+   "setor": "N",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Air Silva de Almeida, nº 244",
+   "bairro": "Tiradentes",
+   "cep": "79042-872",
+   "bairroOficial": "Tiradentes",
+   "loteamento": "Tiradentes",
+   "coord": [
+    -54.560843,
+    -20.485805
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "cristo-redentor",
+   "nome": "Cristo Redentor",
+   "setor": "N",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "Rua Tereza Garcez Paim, s/nº",
+   "bairro": "Jardim Cristo Redentor",
+   "cep": null,
+   "bairroOficial": "Tiradentes",
+   "loteamento": "Tiradentes",
+   "coord": [
+    -54.563916,
+    -20.497822
+   ],
+   "localizacao": "confirmada"
+  },
+  {
+   "id": "jardim-noroeste",
+   "nome": "Jardim Noroeste",
+   "setor": "N",
+   "pastor": null,
+   "instagram": null,
+   "foto": null,
+   "endereco": "R. Indianápolis, 2000",
+   "bairro": "Noroeste",
+   "cep": "79045-120",
+   "bairroOficial": "Noroeste",
+   "loteamento": "Noroeste",
+   "coord": [
+    -54.533946,
+    -20.461592
+   ],
+   "localizacao": "confirmada"
+  }
+ ]
+}

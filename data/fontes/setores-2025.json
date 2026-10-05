@@ -1,0 +1,17 @@
+{
+  "fonte": "Setores 2025.pdf (lista oficial de congregações por setor)",
+  "setores": [
+    { "id": "A",   "nome": "Setor A",   "cor": "#1E6FD9", "supervisor": null, "congregacoes": ["Dr. Albuquerque", "Moreninha III", "Alves Pereira", "Jardim Moema", "Itamaracá", "Cidade Morena", "Moreninha IV", "Santa Felicidade", "Campina Verde", "Universitário"] },
+    { "id": "B",   "nome": "Setor B",   "cor": "#22B8F0", "supervisor": null, "congregacoes": ["Campo Belo", "Imperial", "Atlântico Sul", "Isabel Garden", "Nova Lima III"] },
+    { "id": "C-1", "nome": "Setor C-1", "cor": "#F2C511", "supervisor": null, "congregacoes": ["Santa Carmélia", "Santa Luzia", "Santo Amaro", "Portal da Lagoa", "José Abrão", "Zé Pereira", "Vila Nasser", "Vila Marly"] },
+    { "id": "C-2", "nome": "Setor C-2", "cor": "#23B05A", "supervisor": null, "congregacoes": ["Serradinho", "Imá", "Popular", "Inápolis", "Aeroporto II", "Aeroporto I", "Carioca", "Santa Mônica"] },
+    { "id": "D",   "nome": "Setor D",   "cor": "#C9A66B", "supervisor": null, "congregacoes": ["Aero Rancho IV", "Guanandy II", "Jardim das Hortências", "Aero Rancho I", "Centenário", "Jd Aero Rancho", "Tancredo Neves", "Nova Esperança", "Iracy Coelho", "Paraty"] },
+    { "id": "E",   "nome": "Setor E",   "cor": "#94A3B8", "supervisor": null, "congregacoes": ["Tiradentes", "Vilas Boas", "Piratininga", "Jardim Paulista", "Marcos Roberto", "Parque Dallas"] },
+    { "id": "F",   "nome": "Setor F",   "cor": "#8B5CF6", "supervisor": null, "congregacoes": ["Guanandy", "Bom Jardim", "Caiçara", "Jacy", "União", "Tijuca II", "Santa Emília", "São Conrado", "Rancho Alegre", "São Jorge da Lagoa"] },
+    { "id": "G",   "nome": "Setor G",   "cor": "#2DD4BF", "supervisor": null, "congregacoes": ["Portal Caiobá", "Portal do Caiobá II", "Portal das Laranjeiras", "Tarumã", "Jardim Pênfigo", "Parque Lageado", "Pq do Sabiá", "Aero Rancho VII", "Parque do Sol", "Colorado"] },
+    { "id": "H",   "nome": "Setor H",   "cor": "#F08A8A", "supervisor": null, "congregacoes": ["Margarida", "Santa Fé", "Monte Castelo", "Mata do Jacinto", "Montevidéu", "Nova Bahia", "Cruzeiro", "Estrela Dalva I", "Taquaral Bosque", "Catarina II"] },
+    { "id": "J",   "nome": "Setor J",   "cor": "#64748B", "supervisor": null, "congregacoes": ["Jardim das Nações", "Pioneira", "Cohab", "Centro Oeste", "Macaúbas", "Uirapuru", "Los Angeles", "Novo Seculo", "Guaicurus", "Vespasiano Martins"] },
+    { "id": "M",   "nome": "Setor M",   "cor": "#DC4B4B", "supervisor": null, "congregacoes": ["Matel", "Jardim Columbia", "Nova Lima II", "Nova Lima I", "Vida Nova", "Jardim Anache"] },
+    { "id": "N",   "nome": "Setor N",   "cor": "#B39DDB", "supervisor": null, "congregacoes": ["Maria Pedrossian", "Leon Denizart", "Rita Vieira", "Nova Serrana", "Jardim Panorama", "Estrela Parque", "Cristo Redentor", "Jardim Noroeste"] }
+  ]
+}

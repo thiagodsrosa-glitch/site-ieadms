@@ -1,0 +1,35 @@
+{
+  "name": "site-ieadms",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/copiar-maplibre.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/copiar-maplibre.mjs",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "dados": "node scripts/gerar-dados.mjs",
+    "dados:osm": "node scripts/baixar-osm.mjs"
+  },
+  "dependencies": {
+    "maplibre-gl": "^6.12.0",
+    "next": "16.3.8",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@turf/turf": "^7.4.0",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.8",
+    "osmtogeojson": "^3.0.0-beta.5",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}

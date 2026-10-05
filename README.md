@@ -2,13 +2,15 @@
 
 Novo site da **IEADMS** (Igreja Evangélica Assembleia de Deus em Mato Grosso do Sul), com um mapa interativo em 3D para encontrar nossas igrejas e um painel administrativo para mapeamento evangelístico.
 
+🌐 **Site no ar:** https://thiagodsrosa-glitch.github.io/site-ieadms/
+
 > 🚧 Projeto em fase inicial. Veja o [CLAUDE.md](CLAUDE.md) para objetivos, regras e roadmap completos.
 
 ## O que o site vai oferecer
 
 ### Para todos (site público)
 - **Onde Estamos**: mapas do **Mundo**, **Brasil**, **Estados** e **Campo Grande/MS**.
-- Campo Grande dividida em **13 setores**, cada um com suas congregações, pastores e supervisor.
+- Campo Grande dividida em **12 setores** (lista 2025), cada um com suas congregações, pastores e supervisor.
 - **Busca** por bairro, igreja, pastor, supervisor, setor, cidade, estado ou país.
 - **Igrejas perto de mim**, usando a localização do celular ou um endereço.
 - **Efeito 3D**: ao clicar num setor, cidade, estado ou país, a área se eleva e mostra nome, pastor responsável, endereço com link de navegação e **Saiba mais** (fotos, Instagram, horários de culto).
@@ -20,8 +22,17 @@ Novo site da **IEADMS** (Igreja Evangélica Assembleia de Deus em Mato Grosso do
 - **Campanhas evangelísticas**: área do evento, contagem de ruas e domicílios, divisão em equipes e registro do alcance (casas visitadas, folhetos, convites).
 - Em breve: acompanhamento do alcance de **tráfego pago** no mesmo mapa.
 
-## Tecnologias (proposta)
-Next.js · TypeScript · Tailwind CSS · MapLibre GL (3D) · Supabase (PostgreSQL + PostGIS) · Vercel
+## Tecnologias
+Next.js · TypeScript · Tailwind CSS · MapLibre GL (3D) · OpenFreeMap · GitHub Pages
+(Supabase e Vercel entram com o painel administrativo)
+
+## Rodar no computador
+
+```bash
+npm install
+npm run dev      # abre em http://localhost:3000
+npm run dados    # regenera os dados do mapa a partir de data/fontes/
+```
 
 ## Como trabalhar neste projeto em qualquer computador
 

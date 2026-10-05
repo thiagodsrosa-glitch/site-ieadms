@@ -1,0 +1,29 @@
+{
+  "_leia": "Correções manuais. 'nomeNoKml' liga o nome da lista 2025 ao ponto do mapa antigo. 'aproximado' = coordenada do centro do bairro (OpenStreetMap), precisa confirmar o endereço real. Coordenadas: [longitude, latitude].",
+  "nomeNoKml": {
+    "Portal Caiobá": "Caiobá I",
+    "Portal do Caiobá II": "Caiobá II",
+    "Imá": "Jardim Imá",
+    "Inápolis": "Jardim Inápolis",
+    "Carioca": "Jardim Carioca",
+    "Centenário": "Jardim Centenário",
+    "Los Angeles": "Jardim Los Angeles",
+    "Jardim Columbia": "Jardim Colúmbia",
+    "Maria Pedrossian": "Maria Aparecida Pedrossian"
+  },
+  "aproximado": {
+    "Moreninha IV": { "coord": [-54.5687732, -20.5581383], "bairro": "Moreninha IV" },
+    "Jd Aero Rancho": { "coord": [-54.6386571, -20.5229429], "bairro": "Aero Rancho" },
+    "Tarumã": { "coord": [-54.6712166, -20.5422985], "bairro": "Tarumã" },
+    "Nova Serrana": { "coord": [-54.5211125, -20.4655593], "bairro": "Nova Serrana" },
+    "Jardim Panorama": { "coord": [-54.5442377, -20.4695508], "bairro": "Panorama" }
+  },
+  "semLocalizacao": ["Pq do Sabiá", "Novo Seculo"],
+  "sede": {
+    "nome": "Templo Sede (Matriz IEADMS)",
+    "endereco": "Av. Dr. João Rosa Pires, 482",
+    "bairro": "Amambaí",
+    "cep": "79008-050",
+    "coordNoKml": "Matriz IEADMS"
+  }
+}

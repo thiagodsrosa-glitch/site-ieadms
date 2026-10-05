@@ -1,5 +1,7 @@
 # CLAUDE.md — Site IEADMS ("Onde Estamos")
 
+@AGENTS.md
+
 Guia de contexto e regras para o Claude (e qualquer pessoa) que trabalhar neste repositório.
 Leia este arquivo inteiro antes de qualquer alteração.
 
@@ -57,6 +59,8 @@ Campo (IEADMS)
  └── Projetos missionários (exterior), por país/continente
 ```
 
+Departamentos (aparecem no site): **CIFAD** e **Círculo de Oração** (mulheres), **KIDS** (crianças), **UMADEMATS** (jovens), **EBD** (Escola Bíblica Dominical).
+
 Glossário:
 - **Pr.** = Pastor. **Congregação** = igreja local (os dois termos são sinônimos aqui).
 - **Setor** = agrupamento de congregações em Campo Grande, sob um **Pr. Supervisor**.
@@ -75,14 +79,27 @@ Glossário:
 | Banco de dados | **Supabase** (PostgreSQL + **PostGIS**) | consultas geográficas (proximidade, área, interseção) |
 | Login | Supabase Auth | papéis: admin, presidente, supervisor, pastor |
 | Arquivos | Supabase Storage | fotos de pastores e igrejas |
-| Hospedagem | **Vercel** (deploy automático a cada push no GitHub) | acessível de qualquer dispositivo |
+| Hospedagem | **GitHub Pages** agora (export estático, deploy automático a cada push na `main`); **Vercel** quando entrar o painel com login | acessível de qualquer dispositivo |
+| Mapa base | **OpenFreeMap** (estilo `dark`), sem chave de API | gratuito |
 | Dados geográficos | IBGE (malhas, Censo 2022, setores censitários), OpenStreetMap (ruas, bairros), Natural Earth (países) | fontes públicas e gratuitas |
 
 Mudanças de stack devem ser discutidas e registradas neste arquivo antes de implementadas.
 
 ---
 
-## 4. Estrutura de pastas (alvo)
+## 4. Dados de Campo Grande (como funcionam hoje)
+
+- Fontes em `data/fontes/`:
+  - `setores-2025.json` — **lista oficial** (do PDF "Setores 2025"): setores, cores e congregações. **É a fonte da verdade**: para mudar uma igreja de setor, mexa aqui.
+  - `mapa-antigo-google-mymaps.kml` — pontos e endereços exportados do Google My Maps antigo.
+  - `ajustes.json` — nomes diferentes entre lista e KML, coordenadas aproximadas, igrejas sem localização, dados da Sede.
+  - `osm-bairros.geojson` — limites de bairros do OpenStreetMap (`npm run dados:osm`).
+- `npm run dados` (scripts/gerar-dados.mjs) gera `public/dados/*.json`, usados pelo site.
+- **Divisão dos setores**: diagrama de Voronoi das congregações (cada ponto da cidade pertence à igreja mais próxima), unido por setor, recortado pela área urbana e com cantos arredondados. Ao adicionar/mover igrejas, os limites se recalculam sozinhos. A área de cada congregação fica em `data/geo/areas-congregacoes.geojson` (base para o painel).
+- Localização: `confirmada` (ponto do mapa antigo), `aproximada` (centro do bairro, confirmar) ou `pendente` (não aparece no mapa).
+- Editou dados? Rode `npm run dados`, confira, faça commit dos arquivos gerados.
+
+## 5. Estrutura de pastas (alvo)
 
 ```
 site-ieadms/
@@ -106,7 +123,7 @@ site-ieadms/
 
 ---
 
-## 5. Regras do projeto
+## 6. Regras do projeto
 
 ### Idioma e tom
 - Interface, textos, commits e documentação em **português do Brasil**.
@@ -139,6 +156,7 @@ site-ieadms/
 ### Qualidade
 - TypeScript estrito; sem `any` sem justificativa.
 - Antes de commitar: `npm run lint` e `npm run build` devem passar.
+- Para ver localmente: `npm install` e `npm run dev` → http://localhost:3000
 - Commits pequenos e descritivos em português (ex.: `feat(mapa): extrusão 3D ao clicar no setor`).
 - Não apagar nem sobrescrever dados de produção sem confirmação explícita do responsável.
 
@@ -149,10 +167,10 @@ site-ieadms/
 
 ---
 
-## 6. Roadmap
+## 7. Roadmap
 
-1. **Fundação** — Next.js, Tailwind, layout, menu com "Onde Estamos", deploy na Vercel.
-2. **Mapa de Campo Grande** — 13 setores com polígonos, congregações como pontos, cartão 3D, busca e "perto de mim".
+1. ✅ **Fundação** — Next.js, Tailwind, layout, menu com "Onde Estamos", deploy no GitHub Pages.
+2. ✅ **Mapa de Campo Grande** — setores com polígonos, congregações, efeito 3D, busca e "perto de mim".
 3. **Saiba mais** — fotos, Instagram, horários, navegação.
 4. **Níveis Mundo / Brasil / Estados** — projetos missionários e igrejas fora de Campo Grande.
 5. **Painel administrativo** — login, papéis, cadastro de setores/congregações.
@@ -162,9 +180,11 @@ site-ieadms/
 
 ---
 
-## 7. Pendências de informação (a coletar com a liderança)
-- Lista dos 13 setores, seus nomes/letras e supervisores.
-- Lista de congregações: nome, endereço, pastor, Instagram, horários, fotos (com autorização).
-- Limites de cada setor (bairros que o compõem ou desenho no mapa).
+## 8. Pendências de informação (a coletar com a liderança)
+- Supervisores dos setores e pastores das congregações.
+- A lista 2025 tem **12 setores** (A, B, C-1, C-2, D, E, F, G, H, J, M, N); confirmar se há um 13º.
+- Endereço de **Pq do Sabiá** (G) e **Novo Século** (J); confirmar endereço de Moreninha IV, Jd Aero Rancho, Tarumã, Nova Serrana, Jardim Panorama, Nova Bahia e Taquaral Bosque.
+- Igrejas do mapa antigo fora da lista 2025: Nova Canaã, Dom Antônio Barbosa, Jardim Bálsamo, São Conrado II, Assentamento Fazenda Estrela.
+- Instagram, horários de culto e fotos (com autorização).
 - Igrejas fora de Campo Grande (MS, outros estados) e projetos missionários no exterior.
 - Identidade visual oficial (logo, cores, fontes) e endereço do site atual.
