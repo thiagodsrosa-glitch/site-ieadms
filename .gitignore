@@ -1,0 +1,23 @@
+# dependências e build
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# variáveis de ambiente e segredos
+.env
+.env*.local
+*.pem
+
+# dados internos (não publicar)
+dados-internos/
+*.xlsx
+*.csv
+
+# sistema / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vercel
+*.log
