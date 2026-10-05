@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { BotaoTema } from "./BotaoTema";
 import { Logo } from "./Logo";
 
 export const NIVEIS_ONDE_ESTAMOS = [
@@ -31,7 +32,7 @@ export function Cabecalho() {
 
   return (
     <header
-      className={`z-40 ${noMapa ? "tema-mapa absolute inset-x-0 top-0" : "sticky top-0"} px-3 pt-3 sm:px-5`}
+      className={`z-40 ${noMapa ? "absolute inset-x-0 top-0" : "sticky top-0"} px-3 pt-3 sm:px-5`}
     >
       <nav className="vidro mx-auto flex max-w-7xl items-center justify-between rounded-2xl px-4 py-2.5 shadow-lg shadow-black/10">
         <Link href="/" aria-label="IEADMS — início">
@@ -83,18 +84,23 @@ export function Cabecalho() {
             )}
           </li>
           <li>
+            <BotaoTema />
+          </li>
+          <li>
             <Link
               href="/onde-estamos/"
-              className="ml-2 rounded-xl bg-ouro px-4 py-2 font-semibold text-[#141821] transition hover:brightness-110"
+              className="ml-1 rounded-xl bg-ouro px-4 py-2 font-semibold text-[#141821] transition hover:brightness-110"
             >
               Encontre uma igreja
             </Link>
           </li>
         </ul>
 
+        <div className="flex items-center gap-1 md:hidden">
+        <BotaoTema />
         <button
           type="button"
-          className="rounded-lg p-2 md:hidden"
+          className="rounded-lg p-2"
           onClick={() => setAberto((v) => !v)}
           aria-expanded={aberto}
           aria-label={aberto ? "Fechar menu" : "Abrir menu"}
@@ -103,6 +109,7 @@ export function Cabecalho() {
             {aberto ? <path d="M6 6l12 12M18 6 6 18" /> : <path d="M4 7h16M4 12h16M4 17h16" />}
           </svg>
         </button>
+        </div>
       </nav>
 
       {aberto && (

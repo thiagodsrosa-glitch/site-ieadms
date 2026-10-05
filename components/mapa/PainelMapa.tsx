@@ -84,7 +84,7 @@ function Busca({ buscar, setorBuscado, abrirSetor, abrirCongregacao, buscarEnder
         }}
       >
         <label htmlFor="busca" className="sr-only">Buscar igreja, bairro, pastor ou setor</label>
-        <div className="flex items-center gap-2 rounded-xl border border-borda bg-black/30 px-3 focus-within:border-ouro/70">
+        <div className="flex items-center gap-2 rounded-xl border border-borda bg-superficie-2 px-3 focus-within:border-ouro/70">
           <svg viewBox="0 0 24 24" className="h-5 w-5 shrink-0 text-suave" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
             <circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" />
           </svg>
@@ -103,7 +103,7 @@ function Busca({ buscar, setorBuscado, abrirSetor, abrirCongregacao, buscarEnder
       </form>
 
       {q.trim().length >= 2 && (
-        <div className="animar-entrada absolute inset-x-0 top-full z-20 mt-2 max-h-[50dvh] overflow-y-auto rounded-xl border border-borda bg-[#0d131f] p-1.5 shadow-2xl">
+        <div className="animar-entrada absolute inset-x-0 top-full z-20 mt-2 max-h-[50dvh] overflow-y-auto rounded-xl border border-borda bg-superficie p-1.5 shadow-2xl">
           <ul>
             {setor && (
               <li>
@@ -145,7 +145,7 @@ function CartaoCongregacao({ c, voltar, onVoltar }: { c: Congregacao; voltar?: P
       <div className="flex flex-wrap items-center gap-2">
         <SeloSetor id={c.setor} />
         {c.localizacao === "aproximada" && (
-          <span className="rounded-full bg-amber-500/15 px-2 py-0.5 text-xs text-amber-300">Localização aproximada</span>
+          <span className="rounded-full bg-amber-500/15 px-2 py-0.5 text-xs text-amber-600">Localização aproximada</span>
         )}
       </div>
       <h2 className="mt-2 font-display text-2xl font-bold leading-tight">{c.sede ? c.nome : `Congregação ${c.nome}`}</h2>
@@ -202,7 +202,7 @@ function CartaoCongregacao({ c, voltar, onVoltar }: { c: Congregacao; voltar?: P
         <div className="animar-entrada mt-3 space-y-3">
           <div className="grid grid-cols-2 gap-2">
             {[["Foto do pastor", c.pastor], ["Foto da igreja", c.foto]].map(([rotulo]) => (
-              <div key={rotulo} className="grid aspect-square place-items-center rounded-xl border border-dashed border-borda bg-black/20 p-2 text-center text-xs text-suave">
+              <div key={rotulo} className="grid aspect-square place-items-center rounded-xl border border-dashed border-borda bg-superficie-2 p-2 text-center text-xs text-suave">
                 {rotulo}
                 <br />em breve
               </div>
@@ -319,17 +319,29 @@ export function PainelMapa(p: Props) {
 
   return (
     <aside
-      className={`vidro absolute inset-x-2 bottom-2 z-20 flex max-h-[52dvh] flex-col rounded-2xl shadow-2xl transition-transform duration-300 md:inset-x-auto md:bottom-4 md:left-5 md:top-24 md:max-h-none md:w-[400px] ${
-        recolhido ? "translate-y-[calc(100%-4.5rem)] md:translate-y-0" : ""
+      className={`vidro absolute bottom-2 left-2 top-[4.75rem] z-20 flex w-[min(82vw,340px)] flex-col rounded-2xl shadow-2xl transition-transform duration-300 md:bottom-4 md:left-5 md:top-24 md:w-[400px] md:translate-x-0 ${
+        recolhido ? "-translate-x-[calc(100%+0.5rem)]" : ""
       }`}
       aria-label="Painel de busca e informações"
     >
+      {/* Celular: aba na borda para recolher/abrir a gaveta lateral */}
       <button
         type="button"
         onClick={() => setRecolhidoEm(recolhido ? null : painel)}
-        className="mx-auto mt-2 h-1.5 w-12 shrink-0 rounded-full bg-white/25 md:hidden"
-        aria-label={recolhido ? "Expandir painel" : "Recolher painel"}
-      />
+        className="vidro absolute -right-12 top-1/2 grid h-14 w-11 -translate-y-1/2 place-items-center rounded-xl shadow-lg md:hidden"
+        aria-label={recolhido ? "Abrir busca e informações" : "Recolher painel e ver o mapa"}
+        aria-expanded={!recolhido}
+      >
+        {recolhido ? (
+          <svg viewBox="0 0 24 24" className="h-5 w-5 text-ouro" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" />
+          </svg>
+        ) : (
+          <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden="true">
+            <path d="m15 6-6 6 6 6" />
+          </svg>
+        )}
+      </button>
       <div className="space-y-2 p-3 pb-2 md:p-4 md:pb-2">
         <Busca {...p} />
         <button
@@ -343,7 +355,7 @@ export function PainelMapa(p: Props) {
           </svg>
           {p.carregandoLocal ? "Localizando…" : "Igrejas perto de mim"}
         </button>
-        {p.erroLocal && <p className="rounded-lg bg-red-500/15 px-3 py-2 text-xs text-red-200">{p.erroLocal}</p>}
+        {p.erroLocal && <p className="rounded-lg bg-red-500/15 px-3 py-2 text-xs text-red-600">{p.erroLocal}</p>}
       </div>
       <div className="min-h-0 flex-1 overflow-y-auto px-3 pb-4 md:px-4">{conteudo}</div>
     </aside>

@@ -150,7 +150,8 @@ site-ieadms/
 ### Visual e experiência
 - Moderno, arrojado, com efeito 3D ao selecionar áreas — mas **rápido e utilizável no celular** (a maioria do público acessa pelo celular).
 - Mobile-first, responsivo, acessível (contraste, navegação por teclado, textos alternativos nas fotos).
-- Modo claro e escuro.
+- Modo claro e escuro: botão no cabeçalho e no mapa (lib/tema.ts); sem escolha salva, segue o sistema. O mapa base troca entre OpenFreeMap `positron` (claro) e `dark` (escuro).
+- No celular, o painel de busca/informações é uma gaveta na lateral esquerda, recolhível pela aba na borda.
 - Animações não podem atrasar a busca: "achar a igreja mais próxima" deve funcionar em poucos toques.
 
 ### Qualidade
